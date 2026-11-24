@@ -1,0 +1,15 @@
+path_pattern,license,scope_note
+LICENSE,MIT,Applies only to authors original source code as scoped in LICENSE_SCOPE.md
+main_algorithm/**/*.py,MIT,Only original source code authored by the team; exclude third-party code and data
+mechanism_audit/run_postman_experiment.py,MIT,Original source code authored by the team
+analysis/**/*.py,MIT,Original analysis and figure-generation source code authored by the team
+scripts/**/*.py,MIT,Original verification utility source code authored by the team
+main_algorithm/osm_data/**,ODbL-1.0,OpenStreetMap-derived graph instances geometries and source metadata
+mechanism_audit/data/**,ODbL-1.0,OpenStreetMap-derived graph extracts containing OSM identifiers and road data
+main_algorithm/results/**,CC-BY-4.0 + ODbL-1.0 where applicable,CC BY applies to authors original experimental outputs; OSM-derived database content embedded in records remains ODbL
+main_algorithm/verification_evidence/**,CC-BY-4.0 + ODbL-1.0 where applicable,CC BY applies to authors original validation evidence; OSM-derived database content embedded in records remains ODbL
+mechanism_audit/results/**,CC-BY-4.0 + ODbL-1.0 where applicable,CC BY applies to authors original audit outputs; OSM identifiers and extracted road data remain ODbL
+results/**,CC-BY-4.0 + ODbL-1.0 where applicable,CC BY applies to authors original reanalysis and diagnostic outputs; OSM-derived database content remains ODbL
+figures/**,CC-BY-4.0 + ODbL-1.0 where applicable,CC BY applies to authors original figure composition and analysis; embedded OSM-derived content retains ODbL attribution and obligations
+main_algorithm/fixtures/**,CC-BY-4.0,Authors original non-code test fixtures and expected outputs
+third-party dependencies and materials,Their own license,Check each dependency or file-level notice; no blanket relicensing
